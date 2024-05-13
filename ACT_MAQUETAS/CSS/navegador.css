@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+     
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-link {
+    padding: 15px;
+    display: flexbox;
+    text-decoration: none;
+    color: #003cff;
+    margin: 0 10px;
+    text-decoration: underline;
+
+}
+
+.header-Web{
+    padding: 15px;
+    display: flexbox;
+    text-decoration: none;
+    color: #000000;
+    margin: 0 10px;
+    text-decoration: underline;
+}
+
+.header-Bew{
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 20px;
+    margin: 0 10px;
+}
+
+.header-line {
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 20px;
+    margin: 0 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.search-bar {
+    text-align: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0);
+    width: 200px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    color: #003cff;
+
+}
+
+.footer-content span {
+    margin: 0 10px;
+    
+}
+
+.footer-content .header-line {
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 20px;
+    margin: 0 10px;
+}
+
+.footer-content p {
+    margin-top: 20px; 
+}
+
+.Final {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+}
+
+.search-bar span{
+    text-decoration: underline;
+    color: #003cff;
+}

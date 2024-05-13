@@ -1,0 +1,99 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+nav {
+    height: 100px;
+    background-color: #7ffd00;
+    border: 10px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+nav section#box {
+    width: 180px;
+    height: 70px;
+    background-color: #fff;
+    margin: 0 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height: 300px;
+    background-color: rgb(163, 163, 224);
+    border: 10px solid black;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    text-align: center; 
+}
+
+#banner {
+    width: 800px;
+    height: 300px;
+    background-color: white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo,
+#login,
+#form {
+    width: 200px;
+    height: 95px;
+    background-color: #ffffff;
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 500px;
+    display: flex;
+    background-color: #ff8c00;
+    border: 10px solid black;
+    padding: 5px;
+    text-align: center; 
+    
+}
+
+main aside,
+main article {
+    flex-basis: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main article {
+    flex-basis: 500px;
+}
+
+footer {
+    height: 50px;
+    background-color: #998005;
+    border: 10px solid black;
+    padding: 10px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

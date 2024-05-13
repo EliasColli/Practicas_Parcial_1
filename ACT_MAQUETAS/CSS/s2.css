@@ -1,0 +1,97 @@
+body {
+    width: 750px;
+    margin: 0 auto;
+}
+
+header {
+    height: 250px;
+    background-color: rgb(0, 0, 121);
+    border: 5px solid black;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#banner {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    width: 210px;
+    height: 250px;
+    background-color: #ffffff;
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    height: 50px;
+    background-color: #ceff9e;
+    border: 5px solid black;
+    padding: 5px;
+
+}
+
+main {
+    height: 400px;
+    display: flex;
+    background-color: #ffaa42;
+    border: 5px solid black;
+    padding: 5px;
+    text-align: center;
+
+}
+
+main article {
+    width: 450px;
+    flex-basis: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 5px;
+}
+
+main aside {
+    width: 250px;
+    flex-basis: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main article {
+    flex-basis: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 50px;
+    background-color: #a38800;
+    border: 5px solid black;
+    padding: 10px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
